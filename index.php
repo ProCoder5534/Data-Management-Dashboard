@@ -32,7 +32,6 @@
             </ul>
         </nav>
     </div>
-<<<<<<< HEAD
     <div class="content mt-10 ml-[2cm] ">
         <div class="outside flex relative h-32 w-[175vh]">
           <p class="text-white font-bold text-2xl ">Available Databases :</p>
@@ -99,8 +98,6 @@
     </a>
   </div>
     </div>
-=======
->>>>>>> e1727848acb1b65c53edf96261f90c39e233211c
     <script src="https://cdn.tailwindcss.com"></script>
 </body>
 
