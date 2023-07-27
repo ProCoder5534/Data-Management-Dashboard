@@ -3,6 +3,7 @@
 
 <head>
     <link rel="icon" type="image/x-icon" href="images\favicon.png">
+    <link rel="stylesheet" href="extra.css">
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
@@ -16,20 +17,22 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body class="bg-gradient-to-tl from-blue-300 to-purple-500 h-screen">
-    <div class="nav bg-blue-700 h-20 rounded-b-3xl">
+<body>
+    <div class="nav bg-blue-700 h-16 rounded-b-3xl">
         <nav>
             <ul class="relative h-32 w-screen">
-                <li class="absolute top-1 left-12 ">LOGOOOO </li>
-                        <li class="absolute right-[6cm] top-4"><button
+                <li class="absolute top-0 left-12 "><img src="./images/favicon.png" alt="LOGO"
+                        class="h-16 w-16 rounded-full"></li>
+                <li class="absolute top-3 right-[200] "><button
                         class="h-10 w-32 rounded-2xl bg-yellow-300 hover:rounded-full hover:border-4 border-blue-300 font-semibold">
-                        Credits</button></li>
-                <li class="absolute right-12 top-4"><button
+                        Credits </button></li>
+                <li class="absolute right-12 top-3"><button
                         class="h-10 w-32 rounded-2xl bg-yellow-300 hover:rounded-full hover:border-4 border-blue-300 font-semibold">
-                        About</button></li>
+                        About </button></li>
             </ul>
         </nav>
     </div>
+<<<<<<< HEAD
     <div class="content mt-10 ml-[2cm] ">
         <div class="outside flex relative h-32 w-[175vh]">
           <p class="text-white font-bold text-2xl ">Available Databases :</p>
@@ -96,6 +99,8 @@
     </a>
   </div>
     </div>
+=======
+>>>>>>> e1727848acb1b65c53edf96261f90c39e233211c
     <script src="https://cdn.tailwindcss.com"></script>
 </body>
 
