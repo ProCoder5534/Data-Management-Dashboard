@@ -34,7 +34,7 @@
           <p class="text-white font-bold text-2xl ">Available Databases :</p>
           <button class="h-10 w-32 rounded-2xl bg-yellow-300 hover:rounded-full hover:border-4 border-blue-300 font-semibold absolute right-60">Create New</button>
           <div class="search h-[1cm] w-[6.15cm] bg-white absolute right-0 rounded-full cursor-text p-1 pl-4 pt-[0.20cm]"><p class="text-gray-300">Search for databases</p>
-          <button class="h-10 w-32 rounded-2xl bg-yellow-300 hover:rounded-full hover:border-4 border-blue-300 font-semibold">Create New</button>
+          <button class="h-10 w-32 rounded-2xl bg-yellow-300 hover:rounded-full hover:border-4 border-blue-300 font-semibold"><img src="./images/arrow.png" alt="" class="h-7 w-7"></button>
         </div>
         </div>
         <div class="inside">
