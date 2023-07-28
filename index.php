@@ -12,21 +12,17 @@
     <script src="https://cdn.tailwindcss.com"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
-
-        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
-
-        crossorigin="anonymous"></script>
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
+    </script>
 
     <style>
+    /* Custom CSS for the gradient background */
 
-        /* Custom CSS for the gradient background */
+    body {
 
-        body {
+        background-image: linear-gradient(to bottom left, #87cefa, #a020f0);
 
-            background-image: linear-gradient(to bottom left, #87cefa, #a020f0);
-
-        }
-
+    }
     </style>
 
 </head>
@@ -44,14 +40,12 @@
 
                 <li class="absolute top-1 left-12 ">LOGOOOO </li>
 
-                        <li class="absolute right-[6cm] top-4"><button
-
+                <li class="absolute right-[6cm] top-4"><button
                         class="h-10 w-32 rounded-2xl bg-yellow-300 hover:rounded-full hover:border-4 border-blue-300 font-semibold">
 
                         Credits</button></li>
 
                 <li class="absolute right-12 top-4"><button
-
                         class="h-10 w-32 rounded-2xl bg-yellow-300 hover:rounded-full hover:border-4 border-blue-300 font-semibold">
 
                         About</button></li>
@@ -66,15 +60,20 @@
 
         <div class="outside flex relative h-32 w-[175vh]">
 
-          <p class="text-white font-bold text-2xl ">Available Databases :</p>
+            <p class="text-white font-bold text-2xl ">Available Databases :</p>
 
-          <button class="h-10 w-32 rounded-2xl bg-yellow-300 hover:rounded-full hover:border-4 border-blue-300 font-semibold absolute right-60">Create New</button>
+            <button
+                class="h-10 w-32 rounded-2xl bg-yellow-300 hover:rounded-full hover:border-4 border-blue-300 font-semibold absolute right-60">Create
+                New</button>
 
-          <div class="search h-[1cm] w-[6.15cm] flex bg-white absolute right-0 rounded-full cursor-text pl-4 "><p class="text-gray-300">Search for databases</p>
+            <div class="search h-[1cm] w-[6.15cm] flex bg-white absolute right-0 rounded-full cursor-text pl-4 ">
+                <p class="text-gray-300">Search for databases</p>
 
-          <button class="h-10 w-10 rounded-2xl bg-yellow-300 hover:rounded-full hover:border-4 border-blue-300 font-semibold mt-0"><img src="./images/arrow.png" alt="" class="h-7 w-7 ml-1"></button>
+                <button
+                    class="h-10 w-10 rounded-2xl bg-yellow-300 hover:rounded-full hover:border-4 border-blue-300 font-semibold mt-0"><img
+                        src="./images/arrow.png" alt="" class="h-7 w-7 ml-1"></button>
 
-        </div>
+            </div>
 
         </div>
 
