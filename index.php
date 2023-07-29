@@ -31,7 +31,7 @@
 
         .progress-bar-container {
             width: 100%;
-            background-color: #f0f0f0;
+            background-color: #83a2d6;
             border-radius: 5px;
             overflow: hidden;
         }
