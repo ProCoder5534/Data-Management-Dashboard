@@ -1,6 +1,26 @@
 .container {
-    padding: 50px;}
+    padding: 50px;
+}
+
 .flex {
     display: flex;
-    
+
+}
+
+/* Webkit (Safari/Chrome) */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #ff6600;
+}
+
+/* Firefox */
+::-moz-scrollbar {
+    width: 12px;
+}
+
+::-moz-scrollbar-thumb {
+    background-color: #ff6600;
 }
