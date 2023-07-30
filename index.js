@@ -62,19 +62,26 @@
         }
       };
   
-  document.addEventListener('DOMContentLoaded', () => {
-    const searchButton = document.getElementById('searchButton');
-    searchButton.addEventListener('click', search);
-  
-    // Your other code inside the DOMContentLoaded event listener
-    // ...
-   
-  });
-  
-  // Your other functions and code in the global scope
-  // ...
-  const goToCreate = () => {
-    location.href = "./create.php";
-  };
+      document.addEventListener('DOMContentLoaded', () => {
+        const searchButton = document.getElementById('searchButton');
+        searchButton.addEventListener('click', search);
+      
+        // Call the search function once on page load to render the cards
+        search();
+      });
+      
+      // Your other functions and code in the global scope
+      // ...
+      
+      const goToCreate = () => {
+        location.href = "./create.php";
+      };
+      const searchInput = document.querySelector(".searchInput");
+searchInput.addEventListener("keypress", (event) => {
+  if (event.key === "Enter") {
+    // Call the search function when Enter key is pressed
+    search();
+  }
+});
     
 
