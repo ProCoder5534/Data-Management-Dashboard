@@ -85,16 +85,16 @@
                 <p class="text-white font-bold text-2xl">Available Databases :</p>
             </div>
             <div class="flex items-center ml-6">
-                <button
+                <button onclick="goToCreate()"
                     class="h-10 w-32 rounded-2xl bg-yellow-300 hover:rounded-full hover:border-4 border-blue-300 font-semibold ml-[14cm]">Create
                     New</button>
             </div>
             <div class="searchbox flex items-center ml-6">
                 <input type="text"
-                    class="py-2 px-4 border border-gray-300 rounded-tl-lg rounded-bl-lg h-10 flex-grow focus:outline-none focus:ring focus:border-blue-300"
-                    placeholder="Search...">
-                <button class="h-10 bg-yellow-300 px-4 rounded-r-lg flex items-center">
-                    <img src="images/arrow.png" alt="Search" class="h-5 w-5">
+                    class="searchInput py-2 px-4 border border-gray-300 rounded-tl-lg rounded-bl-lg h-10 flex-grow focus:outline-none focus:ring focus:border-blue-300"
+                    placeholder="Search By name">
+                <button class="h-10 bg-yellow-300 px-4 rounded-r-lg flex items-center" onClick="search()">
+                    <img src="images/arrow.png" alt="Search" class="h-5 w-5" id="searchButton">
                 </button>
             </div>
         </div>
@@ -102,7 +102,7 @@
         <div class="scroll-container w-[30.8cm] overflow-x-auto mt-5">
             <div class="inside flex space-y-3">
                 <div
-                    class="relative max-w-sm p-6 border bg-slate-900 border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 transition-border hover:border-red-500">
+                    class="card relative max-w-sm p-6 border bg-cyan-900 border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 transition-border hover:border-red-500">
                     <!-- The icon image -->
                     <div class="absolute top-2 right-2">
                         <img src="images/Locked.png" alt="Icon" class="w-5 h-5">
@@ -128,7 +128,32 @@
                     </div>
                 </div>
                 <!-- Add more "inside" div content here if needed -->
-
+                <div
+                    class="card relative max-w-sm p-6 border bg-cyan-900 border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 transition-border hover:border-red-500">
+                    <!-- The icon image -->
+                    <div class="absolute top-2 right-2">
+                        <img src="images/Locked.png" alt="Icon" class="w-5 h-5">
+                    </div>
+                    <div class="infoheading space-y-[1.7cm]">
+                        <a href="#">
+                            <h5 class="mb-4 text-4xl font-bold tracking-tight text-gray-300 dark:text-white mt-3">
+                                GG List</h5>
+                        </a>
+                        <p class="mb-3 font-normal text-gray-400 dark:text-gray-400 text-xl">The Employee List of Abc
+                            Corporation (Confidential)</p>
+                    </div>
+                    <div class="button mt-[1.5cm]">
+                        <a href="#"
+                            class="inline-flex items-center px-4 py-4 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 text-xl">
+                            View Database
+                            <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                                fill="none" viewBox="0 0 14 10">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -180,7 +205,7 @@
             </span>
         </div>
     </footer>
-
+<script src="./index.js"></script>
 </body>
 
 </html>
