@@ -1,2 +1,2 @@
 # Data-Management-Dashboard
-THIS IS USELESS ;--;
+This is a Dashboard for managing database, 
