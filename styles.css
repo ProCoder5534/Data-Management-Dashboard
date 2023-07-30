@@ -24,3 +24,39 @@
 ::-moz-scrollbar-thumb {
     background-color: #ff6600;
 }
+/* Add this CSS in your existing <style> block or external CSS file */
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fadeOut {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }
+  
+  /* Apply the animation to the 'card' class */
+  .card {
+    /* Add other card styles here */
+  
+    /* Initially set the opacity to 0 for hidden cards */
+    opacity: 0;
+  
+    /* Define the animation properties for the card */
+    animation-duration: 0.5s; /* Adjust the duration as needed */
+    animation-fill-mode: both; /* Keep the final state of the animation */
+  }
+  
+  .hidden {
+    display: none;
+    /* Optionally, set the display to 'block' or 'flex' to maintain card layout when hidden */
+  }
+  
