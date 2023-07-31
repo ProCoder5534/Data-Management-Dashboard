@@ -9,7 +9,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
         crossorigin="anonymous"></script>
-    <script src="https://cdn.tailwindcss.com"></script>
     <style>
         body {
             background: linear-gradient(to bottom left, #87cefa, #a020f0);
@@ -100,9 +99,9 @@
         </div>
         <!-- Custom horizontal scrollbar for the "inside" div -->
         <div class="scroll-container w-[30.8cm] overflow-x-auto mt-5">
-            <div class="inside flex space-y-3">
+            <div class="inside flex space-y-3 bg-white p-4 rounded-xl overflow-x-auto">
                 <div
-                    class="card relative max-w-sm p-6 border bg-cyan-900 border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 transition-border hover:border-red-500">
+                    class="card flex-shrink-0 relative max-w-sm p-6 border bg-cyan-900 border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 transition-border hover:border-red-500">
                     <!-- The icon image -->
                     <div class="absolute top-2 right-2">
                         <img src="images/Locked.png" alt="Icon" class="w-5 h-5">
@@ -127,9 +126,8 @@
                         </a>
                     </div>
                 </div>
-                <!-- Add more "inside" div content here if needed -->
                 <div
-                    class="card relative max-w-sm p-6 border bg-cyan-900 border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 transition-border hover:border-red-500">
+                    class="card flex-shrink-0 relative max-w-sm p-6 border bg-cyan-900 border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 transition-border hover:border-red-500">
                     <!-- The icon image -->
                     <div class="absolute top-2 right-2">
                         <img src="images/Locked.png" alt="Icon" class="w-5 h-5">
@@ -137,7 +135,7 @@
                     <div class="infoheading space-y-[1.7cm]">
                         <a href="#">
                             <h5 class="mb-4 text-4xl font-bold tracking-tight text-gray-300 dark:text-white mt-3">
-                                GG List</h5>
+                                Employee List</h5>
                         </a>
                         <p class="mb-3 font-normal text-gray-400 dark:text-gray-400 text-xl">The Employee List of Abc
                             Corporation (Confidential)</p>
@@ -154,6 +152,85 @@
                         </a>
                     </div>
                 </div>
+                <div
+                    class="card flex-shrink-0 relative max-w-sm p-6 border bg-cyan-900 border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 transition-border hover:border-red-500">
+                    <!-- The icon image -->
+                    <div class="absolute top-2 right-2">
+                        <img src="images/Locked.png" alt="Icon" class="w-5 h-5">
+                    </div>
+                    <div class="infoheading space-y-[1.7cm]">
+                        <a href="#">
+                            <h5 class="mb-4 text-4xl font-bold tracking-tight text-gray-300 dark:text-white mt-3">
+                                Employee List</h5>
+                        </a>
+                        <p class="mb-3 font-normal text-gray-400 dark:text-gray-400 text-xl">The Employee List of Abc
+                            Corporation (Confidential)</p>
+                    </div>
+                    <div class="button mt-[1.5cm]">
+                        <a href="#"
+                            class="inline-flex items-center px-4 py-4 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 text-xl">
+                            View Database
+                            <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                                fill="none" viewBox="0 0 14 10">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div
+                    class="card flex-shrink-0 relative max-w-sm p-6 border bg-cyan-900 border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 transition-border hover:border-red-500">
+                    <!-- The icon image -->
+                    <div class="absolute top-2 right-2">
+                        <img src="images/Locked.png" alt="Icon" class="w-5 h-5">
+                    </div>
+                    <div class="infoheading space-y-[1.7cm]">
+                        <a href="#">
+                            <h5 class="mb-4 text-4xl font-bold tracking-tight text-gray-300 dark:text-white mt-3">
+                                Employee List</h5>
+                        </a>
+                        <p class="mb-3 font-normal text-gray-400 dark:text-gray-400 text-xl">The Employee List of Abc
+                            Corporation (Confidential)</p>
+                    </div>
+                    <div class="button mt-[1.5cm]">
+                        <a href="#"
+                            class="inline-flex items-center px-4 py-4 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 text-xl">
+                            View Database
+                            <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                                fill="none" viewBox="0 0 14 10">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div
+                    class="card flex-shrink-0 relative max-w-sm p-6 border bg-cyan-900 border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 transition-border hover:border-red-500">
+                    <!-- The icon image -->
+                    <div class="absolute top-2 right-2">
+                        <img src="images/Locked.png" alt="Icon" class="w-5 h-5">
+                    </div>
+                    <div class="infoheading space-y-[1.7cm]">
+                        <a href="#">
+                            <h5 class="mb-4 text-4xl font-bold tracking-tight text-gray-300 dark:text-white mt-3">
+                                Employee List</h5>
+                        </a>
+                        <p class="mb-3 font-normal text-gray-400 dark:text-gray-400 text-xl">The Employee List of Abc
+                            Corporation (Confidential)</p>
+                    </div>
+                    <div class="button mt-[1.5cm]">
+                        <a href="#"
+                            class="inline-flex items-center px-4 py-4 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 text-xl">
+                            View Database
+                            <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                                fill="none" viewBox="0 0 14 10">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                
             </div>
         </div>
     </div>
