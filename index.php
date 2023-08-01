@@ -69,7 +69,7 @@
                 </li>
                 <li class="absolute right-12 top-4">
                     <button
-                        class="h-10 w-32 rounded-2xl bg-yellow-300 hover:rounded-full hover:border-4 border-blue-300 font-semibold">About</button>
+                        class="h-10 w-32 rounded-2xl bg-yellow-300 hover:rounded-full hover:border-4 border-blue-300 font-semibold" onClick="location.href = './pages/about'">About</button>
                 </li>
             </ul>
         </nav>
@@ -99,9 +99,9 @@
         </div>
         <!-- Custom horizontal scrollbar for the "inside" div -->
         <div class="scroll-container w-[30.8cm] overflow-x-auto mt-5">
-            <div class="inside flex space-y-3 bg-white p-4 rounded-xl overflow-x-auto">
+            <div class="inside flex-column space-y-3 bg-white p-4 rounded-xl overflow-x-auto">
                 <div
-                    class="card flex-shrink-0 relative max-w-sm p-6 border bg-cyan-900 border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 transition-border hover:border-red-500">
+                    class="card flex-shrink-0 relative p-6 border bg-cyan-900 border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 transition-border hover:border-red-500">
                     <!-- The icon image -->
                     <div class="absolute top-2 right-2">
                         <img src="images/Locked.png" alt="Icon" class="w-5 h-5">
@@ -127,7 +127,7 @@
                     </div>
                 </div>
                 <div
-                    class="card flex-shrink-0 relative max-w-sm p-6 border bg-cyan-900 border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 transition-border hover:border-red-500">
+                    class="card flex-shrink-0 relative  p-6 border bg-cyan-900 border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 transition-border hover:border-red-500">
                     <!-- The icon image -->
                     <div class="absolute top-2 right-2">
                         <img src="images/Locked.png" alt="Icon" class="w-5 h-5">
@@ -153,7 +153,7 @@
                     </div>
                 </div>
                 <div
-                    class="card flex-shrink-0 relative max-w-sm p-6 border bg-cyan-900 border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 transition-border hover:border-red-500">
+                    class="card flex-shrink-0 relative  p-6 border bg-cyan-900 border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 transition-border hover:border-red-500">
                     <!-- The icon image -->
                     <div class="absolute top-2 right-2">
                         <img src="images/Locked.png" alt="Icon" class="w-5 h-5">
@@ -179,7 +179,7 @@
                     </div>
                 </div>
                 <div
-                    class="card flex-shrink-0 relative max-w-sm p-6 border bg-cyan-900 border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 transition-border hover:border-red-500">
+                    class="card flex-shrink-0 relative  p-6 border bg-cyan-900 border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 transition-border hover:border-red-500">
                     <!-- The icon image -->
                     <div class="absolute top-2 right-2">
                         <img src="images/Locked.png" alt="Icon" class="w-5 h-5">
@@ -205,7 +205,7 @@
                     </div>
                 </div>
                 <div
-                    class="card flex-shrink-0 relative max-w-sm p-6 border bg-cyan-900 border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 transition-border hover:border-red-500">
+                    class="card flex-shrink-0 relative  p-6 border bg-cyan-900 border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 transition-border hover:border-red-500">
                     <!-- The icon image -->
                     <div class="absolute top-2 right-2">
                         <img src="images/Locked.png" alt="Icon" class="w-5 h-5">

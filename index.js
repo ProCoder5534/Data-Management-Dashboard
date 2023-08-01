@@ -76,6 +76,9 @@
       const goToCreate = () => {
         location.href = "./create.php";
       };
+      const About = ()=>{
+        location.href = "./pages/about/index.php"
+      }
       const searchInput = document.querySelector(".searchInput");
 searchInput.addEventListener("keypress", (event) => {
   if (event.key === "Enter") {
