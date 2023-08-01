@@ -213,7 +213,7 @@
                     <div class="infoheading space-y-[1.7cm]">
                         <a href="#">
                             <h5 class="mb-4 text-4xl font-bold tracking-tight text-gray-300 dark:text-white mt-3">
-                                Employee List</h5>
+                                Test List</h5>
                         </a>
                         <p class="mb-3 font-normal text-gray-400 dark:text-gray-400 text-xl">The Employee List of Abc
                             Corporation (Confidential)</p>
@@ -242,7 +242,7 @@
                     viewBox="0 0 24 24">
                     <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
                 </svg>
-                <span class="ml-3 text-xl">XYZ</span>
+                <span class="ml-3 text-xl">DMDB</span>
             </a>
             <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">©
                 2020 Tailblocks —
