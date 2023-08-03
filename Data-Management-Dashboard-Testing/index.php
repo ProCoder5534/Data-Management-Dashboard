@@ -2,8 +2,9 @@
 <html>
 
 <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 
-    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body>
@@ -17,53 +18,29 @@
         <br>
         <button type="submit">Create Table</button>
     </form>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <form>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Table Name</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            placeholder="Enter Table Name">
 
-    <div class="min-h-screen bg-gray-100 py-6 flex flex-col justify-center sm:py-12">
-        <div class="relative py-3 sm:max-w-xl sm:mx-auto">
-            <div
-                class="absolute inset-0 bg-gradient-to-r from-blue-300 to-blue-600 shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl">
-            </div>
-            <div class="relative px-4 py-10 bg-white shadow-lg sm:rounded-3xl sm:p-20">
-                <div class="max-w-md mx-auto">
-                    <div>
-                        <h1 class="text-2xl font-semibold">Make A New Table</h1>
                     </div>
-                    <div class="divide-y divide-gray-200">
-
-                        <form action="post">
-                            <div class="py-8 text-base leading-6 space-y-4 text-gray-700 sm:text-lg sm:leading-7">
-                                <div class="relative">
-                                    <input type="text" name="table_name" id="table_name" required
-                                        class="peer placeholder-transparent h-10 w-full border-b-2 border-gray-300 text-gray-900 focus:outline-none focus:borer-rose-600"
-                                        placeholder="Email address" />
-                                    <label for="table_name"
-                                        class="absolute left-0 -top-3.5 text-gray-600 text-sm peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-440 peer-placeholder-shown:top-2 transition-all peer-focus:-top-3.5 peer-focus:text-gray-600 peer-focus:text-sm">Table
-                                        Name</label>
-                                </div>
-                                <div class="relative">
-                                    <input type="text" name="row_titles" id="row_titles" required
-                                        class="peer placeholder-transparent h-10 w-full border-b-2 border-gray-300 text-gray-900 focus:outline-none focus:borer-rose-600"
-                                        placeholder="Password" />
-                                    <label for="row_titles"
-                                        class="absolute left-0 -top-3.5 text-gray-600 text-sm peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-440 peer-placeholder-shown:top-2 transition-all peer-focus:-top-3.5 peer-focus:text-gray-600 peer-focus:text-sm">Row
-                                        Title</label>
-                                </div>
-                                <div class="relative">
-                                    <input type="password" name="table_name" id="table_name" required
-                                        class="peer placeholder-transparent h-10 w-full border-b-2 border-gray-300 text-gray-900 focus:outline-none focus:borer-rose-600"
-                                        placeholder="Email address" />
-                                    <label for="table_name"
-                                        class="absolute left-0 -top-3.5 text-gray-600 text-sm peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-440 peer-placeholder-shown:top-2 transition-all peer-focus:-top-3.5 peer-focus:text-gray-600 peer-focus:text-sm">
-                                        Create a Password</label>
-                                </div>
-                                <div class="relative">
-                                    <button class="bg-blue-500 text-white rounded-md px-2 py-1">Submit</button>
-                                </div>
-                            </div>
-                        </form>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Table Row Name</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1"
+                            placeholder="Enter A Table Row Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Table Row Name</label>
+                        <input type="Password" class="form-control" id="exampleInputPassword1"
+                            placeholder="Create A Password">
                     </div>
 
-                </div>
+                    <button type="submit" class="btn btn-primary mt-3 ">Submit</button>
+                </form>
             </div>
         </div>
     </div>
